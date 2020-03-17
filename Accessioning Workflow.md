@@ -30,6 +30,15 @@
     - Container Summary
     - Removing Extents
   - Agents
+    - Role
+    - Realator
+    - Agent
+      - Person Agent Records
+      - Family Agent Records
+      - Corporate Agent Records
+    - Removing Agents
+  - Related Resources
+    - Resource
     - 
 
 # Before we begin
@@ -246,4 +255,85 @@ To link an agent record to a material description record, click **Agent Links** 
 
 ![screenshot](https://user-images.githubusercontent.com/58087302/76896528-5d559a00-6868-11ea-936c-0ba1981f089b.png "screenshot example agent")
 
+### Role (Required by ArchivesSpace)
 
+_Maps to: Function (Names & Subjects tab)_
+
+Choose from drop-down list. An indication of what function (creator, source, or subject) the agent has in regards to its link to a certain material description record. Note that if you choose a Role=Creator, the screen will present a **Title** field. _You do not have to fill in the **Title** field._
+
+### Realator (_Very_ optional)
+
+_Maps to: Role (Names & Subjects tab) Isn't that confusing?_
+
+Choose from drop-down list. A more specific indication of what role the agent has in respect to the materials being described. For example, an agent may be linked as a creator to a record, but with the more specific role of "illustrator" or as the source to a record, but with the more specific role of "donor."  
+
+### Agent (Required by ArchivesSpace)
+
+_Maps to: Name Lookup (Names & Subjects tab)_
+
+For identifying the agent related to the material described in the record. Agents may be searched using auto-complete, using a browse function, or, if need be, may be created on demand. 
+
+- To select an agent using the auto-complete function simply start typing the name of an agent in the agent box to find an agent in the agent index. The system will present you with names matching the string you have keyed. Select the name that matches the name you want to link to the materials being described. 
+
+![screenshot](https://user-images.githubusercontent.com/58087302/76898431-136eb300-686c-11ea-8227-227ad61b9159.png "screenshot agent dropdown 1")
+
+- To select an agent using the Browse function, click on the drop down arrow by the agent box and select **Browse**. 
+
+![screenshot](https://user-images.githubusercontent.com/58087302/76899353-b5db6600-686d-11ea-967f-09fc5e887cbb.png "screenshot agent dropdown 2")
+
+- Search for and select the desired agent(s) on the resulting screen. Multiple agents can be selected and linked to the context record providing the agents all have the same role and relator values.
+
+- Click **Link to Agent** to add the agent(s) to the context record for the material being described and to close the Browse Agent screen. 
+
+- If you cannot find the name you need, click **Cancel** or the **X** at the upper right to exit the Browse Agents screen without selecting a name. 
+
+![screenshot](https://user-images.githubusercontent.com/58087302/76899447-ea4f2200-686d-11ea-89e9-136f785b74f8.png "screenshot agent dropdown 3")
+
+- To create a new agent record, click on the drop down arrow by the agent box, select **Create**, and then select the type of agent record you wish to create. A minimal agent record may be created by filling in only the required fields. The minimal record can be enhanced later by adding additional information in other fields and sub-records. 
+
+![screenshot](https://user-images.githubusercontent.com/58087302/76900165-30f14c00-686f-11ea-8bc4-887de85d0a8f.png "screenshot agent dropdown 4")
+
+- Each agent type has several required fields you must complete in order to save a new agent record to the database. Required fields are marked with red asterisks. In addition to required fields, there are several conditionally required fields. These fields are marked with gray asterisks. The conditions under which these fields are required are explained in the fields’ tooltip, which is accessed by hovering your cursor over the gray asterisks. 
+
+![screenshot](https://user-images.githubusercontent.com/58087302/76900216-4cf4ed80-686f-11ea-8159-6af701bfaf2e.png "screenshot agent dropdown 5")
+
+- Click **Create and Link to Agent** when you have finished the below, and completed the data entry. 
+
+#### Person agent records:
+
+- **Primary Part of Name** (required by ArchivesSpace) 
+- **Rest of Name** (required by TS unless there's a really compelling reason) 
+- **Source or Rules** (conditionally required) 
+- **Sort Name** (automated if selected) 
+- **Name Order** (default value of "indirect" provided; you may change to "direct") 
+
+#### Family agent records:
+
+- **Family Name** (required by ArchivesSpace) 
+- **Source or Rules** (conditionally required) 
+- **Sort Name** (automated if selected)
+
+#### Corporate Entity agent records:
+
+- **Primary Part of Name** 
+- **Source or Rules** (conditionally required) 
+- **Sort Name** (automated if selected) 
+
+### Removing a link to an Agent Record:
+
+1. Find in the agent record link that is to be deleted. 
+2. Click on the **X** in the upper right corner of the agent record link. 
+3. Click on the **Confirm Removal** option to remove the link, or on the **Cancel** option to retain the link. 
+4. Click on **Save** to save the context record with the agent link removed. 
+
+## Related Resources (a.k.a. Collections)
+
+_Maps to: Resources Linked to this accession (Basic Information tab)
+
+This field allows you link an accession to an existing resource record in your repository. The **Resource** field is required. You may link as many resource records to an accession as necessary. 
+
+To link a related resource to an accession record, click **Related Resources** on the left navigation bar and then click Add Related Resource on the right side of the screen. 
+
+![screenshot](https://user-images.githubusercontent.com/58087302/76900784-65193c80-6870-11ea-9071-5e886994e39b.png "screenshot related resources")
+
+###
