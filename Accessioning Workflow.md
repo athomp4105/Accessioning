@@ -22,7 +22,7 @@ Other fields are used for accessions at the Wilson Special Collections Library, 
 
 [View screenshot](https://user-images.githubusercontent.com/58087302/76891925-309d8480-6860-11ea-9751-b826c7f28473.png)
 
-**Title (Required by TS)**
+### Title (Required by TS)
 
 _Maps to: Title (Basic Information tab)_
 
@@ -32,7 +32,7 @@ _Delete the boilerplate instructions!_
 
 When spawning a resource (see below), this field maps to the resource title.
 
-**Identifier (Required by ArchivesSpace)** 
+### Identifier (Required by ArchivesSpace)
 
 _Maps to: Accession Number (Basic Information tab)_
 
@@ -44,13 +44,13 @@ Here's how we enter identifiers at the Wilson Special Collections Library:
 
 > Note that we are no longer creating separate accession records for digital items. 
 
-**Accession Date (Required by ArchivesSpace)**
+### Accession Date (Required by ArchivesSpace)
 
 _Maps to: Accession Date (Basic Information tab)_
 
 When you create a new accession, this field is automatically filled with the current date, so you may need to edit that date to reflect the actual date of the accession transaction. The accession date in ArchivesSpace is meant to represent the date of the receipt of the materials, which is not necessarily the same as the date the accession record is created and most probably not the date that the contents of the accession were created. 
 
-**Content Description (Required by TS)**
+### Content Description (Required by TS)
 
 _Maps to: Description (Accession Notes tab)_
 
@@ -58,7 +58,7 @@ A description of the document types and topical contents of the accession. When 
 
 _Delete the boilerplate instructions!_
 
-**General Note**
+### General Note
 
 _Maps to: General Accession Note (Basic Information tab)_
 
@@ -68,47 +68,47 @@ Intended for notes about the acquisition or processing of the accession, and not
 
 _Delete the boilerplate instructions!_
 
-**Acquisition Type (Required by TS)**
+### Acquisition Type (Required by TS)
 
 _Maps to: Acquisition Type (Accession Notes tab)_
 
 Choose from a drop-down list. A categorical descriptor for the type of acquisition. We typically select _gift, purchase, or transfer._
 
-**Resource Type (Required by TS)**
+### Resource Type (Required by TS)
 
 _Maps to: Resource Type (Basic Information tab)_
 
 Choose from a drop-down list. A list of terms for categorizing resources into basic types. We typically select _Collection, Papers, or Records._
 
-**Restrictions Apply?**
+### Restrictions Apply?
 
 _Maps to: Restrictions Apply (Acknowledgements, Restrictions & Processing Tasks tab)_
 
 A selected check box indicates that restrictions apply. The restrictions can be explained using the Access Restrictions Note and/or Rights sub-records, described elsewhere below. 
 
-**Publish?**
+### Publish?
 
 _Do not check this box. Just leave it alone. Pretend you never saw it._
 
-**Access Restrictions**
+### Access Restrictions
 
 _Maps to: Access Restrictions (Acknowledgements, Restrictions & Processing Tasks tab)_
 
 A selected check box indicates that access to the materials is restricted. 
 
-**Access Restrictions Note**
+### Access Restrictions Note
 
 _Maps to: Access Restrictions Note (Acknowledgements, Restrictions & Processing Tasks tab)_
 
 A statement indicating what materials in the accession have restrictions on access, what the authority of the restriction is, and for how long the restriction will be in effect. Additional information may also be recorded in a Rights sub-record. 
 
-**Use Restrictions**
+### Use Restrictions
 
 _Maps to: Use Restrictions? (Acknowledgements, Restrictions & Processing Tasks tab) _
 
 A selected check box indicates that there are use restrictions for materials in the accession. The restrictions can be explained using the Use Restrictions Note and/or Rights sub-records, described below. 
 
-**Use Restrictions Note**
+### Use Restrictions Note
 
 _Maps to: Use Restrictions Note  (Acknowledgements, Restrictions & Processing Tasks tab)_
 
