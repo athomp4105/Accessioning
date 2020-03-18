@@ -328,7 +328,7 @@ For identifying the agent related to the material described in the record. Agent
 
 ## Related Resources (a.k.a. Collections)
 
-_Maps to: Resources Linked to this accession (Basic Information tab)
+_Maps to: Resources Linked to this accession (Basic Information tab)_
 
 This field allows you link an accession to an existing resource record in your repository. The **Resource** field is required. You may link as many resource records to an accession as necessary. 
 
@@ -471,8 +471,61 @@ To add an event record to an accession record:
 
 Choose from drop-down list. The default is "Processed." 
 
+### Outcome (Very optional)
+
+Choose from drop-down list. Describe the overall result of the event in terms of success, partial success, or failure. Recommended practice is to define events with sufficient granularity that each event has a single outcome and to use a controlled vocabulary that a system can act upon automatically. More detail about the outcome may be recorded in an Outcome Note.  
+
+### Outcome Note (Very optional)
+
+Open text field. Provide a detailed description of the result or product of the event. This field may be used to record error and warning messages issued by a program involved in the event or to record a pointer to an error log. 
+
+## Event Date/Time
+
+This sub-record is required. Only one date may be associated with an event record. 
+
+### Date/Time Specifier (Required by ArchivesSpace)
+
+Choose from drop-down list. Indicates the type of date is associated with this event. The default is "Date Subrecord." 
+
+**If Date Sub-record is chosen for the Date/Time Specifier**, the required fields are Label and Type.
+
+- **Label (Required by ArchivesSpace)** Choose from drop-down list. Use to describe the type of activity the date signifies. The default is "Event." 
+
+- **Expression (Required by ArchivesSpace)** Open text field to record the date the event occurred. _Delete the boilerplate instructions!_
+
+- **Begin (Not Required)** Enter the date when the event began.
+
+- **End (Not Required)** Enter the date when the event ended.
+
+- **Type (Required by ArchivesSpace)** Choose from a drop-down list. Indicate the type for normalized date information, either a single date or a date range (inclusive or bulk).  
+
+- **Certainty (Not Required)** Choose from a drop-down list. Indicate the level of confidence for the information given in a date statement. This information is optional and should only be added when you are qualifying date information as potentially uncertain based upon the description or cataloging rules in use. 
+
+- **Era (Not Required)** Choose from a drop-down list. Period during which years are numbered and dates reckoned, such as B.C. or C.E. The value "ce" is the default.  
+
+- **Calendar (Not Required)** Choose from a drop-down list. System of reckoning time, such as the Gregorian calendar or Julian calendar. The value "Gregorian" is the default. 
+
+**If UTC Timestamp is chosen for the Date/Time Specifier,** the required field is UTC Timestamp. 
+
+- **UTC Timestamp (Required by ArchivesSpace)** A specific timestamp, with full date and time information, about when the event occurred. By default, the application assumes that the timestamp is in UTC: YYYY-MM-DD HH:MM:SS. 
 
 
+# Agent Links
 
+To link an agent to an event record, click Add **Agent Link** on the right side of the screen. 
 
+The required fields are **Role** and **Agent**.
 
+- **Role (Required by ArchivesSpace)** Choose from drop-down list. Indicate what function (collecting unit, processor, etc.) the agent has in regards to the event. 
+
+- **Agent (Required by ArchivesSpace)** Choose from drop-down list. Select the agent (personal or corporate name) that is related to the event. Agents may be searched using auto-complete, using a browse function, or may be created on demand. 
+
+  - If linking the name of a collecting unit, please use one of the following authorized records: 
+  
+    - University of North Carolina at Chapel Hill. Library. North Carolina Collection  
+    - University of North Carolina at Chapel Hill. Library. Rare Book Collection  
+    - University of North Carolina at Chapel Hill. Library. Southern Folklife Collection  
+    - University of North Carolina at Chapel Hill. Library. Southern Historical Collection 
+    - University of North Carolina at Chapel Hill. Library. University Archives and Records Service  
+    
+  - If linking the name of a processor, please use the existing record, or create a new record if needed (see "Agent [a.k.a. Names] Links" above). 
