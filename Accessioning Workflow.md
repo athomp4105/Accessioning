@@ -336,4 +336,143 @@ To link a related resource to an accession record, click **Related Resources** o
 
 ![screenshot](https://user-images.githubusercontent.com/58087302/76900784-65193c80-6870-11ea-9071-5e886994e39b.png "screenshot related resources")
 
-###
+### Resource (Required by ArchivesSpace)
+
+Two selection options: 1) start typing to filter existing resources and autocomplete the field; 2) use the down arrow to browse existing resources. 
+
+- To select a resource using the auto-complete function simply start typing the resource title in the Resource box. The system will present you with matching options as you type. Select the resource record you want to link the accession to and it will populate the Resource box. 
+
+- To select a resource record using the Browse function, click on the down arrow by the agent box and select Browse. Search for and select the desired resource record on the resulting screen. Click **Link to Resource** to add the resource to the accession record and close the Browse Resources screen. 
+
+- If you cannot find the resource you need, click Cancel or the X at the upper right to exit the Browse Resources screen without selecting a resource. You will need to spawn a new resource record from the accession record. 
+
+- To spawn a resource record, click **Spawn**, and select **Resource**. The new editable resource record displays. 
+
+> REMINDER THAT IN ORDER TO SPAWN YOU HAVE TO HAVE SAVED YOUR ACCESSION RECORD ALREADY?
+
+![screenshot](https://user-images.githubusercontent.com/58087302/76984065-b8dd6180-6914-11ea-96d0-0f930db25a2b.png "screenshot related resources 2")
+
+- The system will then open a new resource record containing information from the accession record. Note that the screen also has a **Return to Accession** button. This enables you to back out of creating the resource and is only available until you save the resource record. 
+
+![screenshot](https://user-images.githubusercontent.com/58087302/76985062-0dcda780-6916-11ea-95a7-f30277be3f63.png "screenshot related resources 3")
+
+- Add the additional required fields to the resource record, if they have not already carried over from the accession record. 
+
+> SOME CARRIED OVER, SOME DID NOT. IS THERE A RHYME OR REASON? 
+
+- The required fields are: 
+
+  - **Title:** Open text field. The title assigned to the resource.
+  - **Identifier:** Open text field. The collection number.
+  - **Level of Description:** Choose from a drop-down list. Indicates the hierarchical level of the materials being described. We typically use _Collection, Papers, or Records._
+  - **Dates fields:** See Dates sub-record documentation above.
+  - **Extenets fields:** See Extents sub-record documentation above.
+  
+- Click **Save Resource**.
+
+### Removing a link to a Relate Resource record
+
+1. Find the relevant accession record, and click Edit to edit the record, if not currently in edit mode. Navigate to the related resource link that is to be removed from the record. 
+2. Click on the **X** in the upper right corner of the related resources record link. 
+3. Click on the **Confirm Removal** option to remove the link, or on the **Cancel** option to retain the link. 
+4. Click on **Save Accession** to save the record with the link removed. 
+
+
+## Collection Management
+
+This sub-record is used to add staff-only information about the processing of materials described in an accession. Only one collection management record may be added per accession.  
+
+![screenshot](https://user-images.githubusercontent.com/58087302/76985970-694c6500-6917-11ea-8c11-25b4101e665a.png "screenshot collection management")
+
+### Processing Plan (Required by TS)
+
+_Maps to: Processing Plan (Acknowledgements, Restrictions & Processing Tasks tab)_
+
+Open text field. For recording a plan for processing of the archival unit. We typically use _Acc2Proc_ or _Intake_. 
+
+_Delete the boilerplate instructions!_
+
+### Processing Status
+
+_Maps to: Processing Status (Acknowledgements, Restrictions & Processing Tasks tab)_
+
+Choose from drop-down list. We typically do not use this field until the accession has been **Processed**.
+
+
+## User Defined
+
+User-defined fields are used to record additional information about materials not supported in other sections of the accession record. 
+
+Please note that there are several user defined fields that we did not migrate from AT. The number of items, which used to be recorded in a user defined field, should now be recorded as an extent. 
+
+![screenshot](https://user-images.githubusercontent.com/58087302/76986346-ee377e80-6917-11ea-9b2b-19ea9b8cf172.png "screenshot user defined")
+
+### Items
+
+_Maps to: Items (User defined fields tab)_
+
+Used to record the approximate number of items in an accession. 
+
+_Delete the boilerplate instructions!_
+
+### Monetary
+
+_Maps to: Monetary (User defined fields tab)_
+
+Used to record how much money was paid for an accession, if applicable.
+
+### New or addition
+
+_Maps to: New or addition (User defined fields tab)_
+
+Used to record whether an accession is creating a new collection, or adding to an existing collection. 
+
+_Delete the boilerplate instructions!_
+
+### Biographical/historical information
+
+_Maps to: Biographical/historical information (User defined fields tab)_
+
+Used to record biographical and historical information related to an accession and its agents. In the future, we might record some of this information in the agent records. 
+
+_Delete the boilerplate instructions!_
+
+***
+
+Once these instructions have been completed, click **Save Accession**. If any required element is missing, you will be prompted to add the information.
+
+
+# Tracking Processing and Collection Management Events in ASpace 
+
+Events represent a specific action that one or more people undertook in relation to an accession at a specific date and time (or in a range of dates and times). You can create a variety of event records, including (but not limited to): 
+
+- Processed
+- Ingested
+- Agreement Sent
+- Agreement Received
+- GIK Report Submitted
+
+To add an event record to an accession record:
+
+1. Find the accession record you want to edit. You can browse or search. 
+   - To browse, on the main toolbar, click **Browse** and select **Accessions**. A listing of all the accession records in the repository displays.
+   - To search, on the main toolbar, type your search query into the **Search** box.
+2. Next to the accession record you want to edit, click **Edit**.
+3. At the top of the accession record, click **Add Event**.
+4. Select the type of event from the drop-down list.
+5. Click **Add Event**.
+6. Follow the instructions below to complete the record.
+
+## Basic Information
+
+![screenshot](https://user-images.githubusercontent.com/58087302/76987140-14115300-6919-11ea-899a-89e77bbf2b6a.png "screenshot for Aspace basic info")
+
+### Type (Required by ArchivesSpace)
+
+Choose from drop-down list. The default is "Processed." 
+
+
+
+
+
+
