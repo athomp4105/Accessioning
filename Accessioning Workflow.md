@@ -39,7 +39,24 @@
     - Removing Agents
   - Related Resources
     - Resource
-    - 
+    - Removing Related Resources
+  - Collection Management
+    - Processing Plan
+    - Processing Status
+  - User Defined
+    - Items
+    - Monetary
+    - New or addition
+    - Biographical/historical information
+- Tracking Processing and Collection Management Events in ASpace
+  - Basic Information
+    - Type
+    - Outcome
+    - Outcome Note
+  - Event Date/Time
+    - Date/Time Specifier
+Agent Links
+
 
 # Before we begin
 
