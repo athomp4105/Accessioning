@@ -1,0 +1,17 @@
+# < acqinfo >
+
+We have always used < acqinfo > to record the collection provenance in the front part of the finding aid. Since 2016 we have taken to using it more liberally throughout a finding aid to record new accessions to the same collection.  
+
+Use < acqinfo >< p ></ p ></ acqinfo > at the container level when you are intellectually integrating an addition into a finding aid (even though physically it will live elsewhere.  
+
+At the container level, include a label and either an addition statement or accession number or both: 
+
+< acqinfo >< p >Acquisition information: Addition of April 2004 (Acc. 101003)</ p ></ acqinfo >  
+
+You can also use it for an additions series. If you have an additions series, an addition statement will be part of the title. Use < acqinfo > for the accession number:
+
+< c02 >< did >< unittitle >Correspondence, 1990-1992: Addition of June 1994</ unittitle ></ did > 
+
+< acqinfo >< p >Acquisition Information: Acc. 101003< p ></ acqinfo > 
+
+</ c02 > 
