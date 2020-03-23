@@ -56,18 +56,16 @@ Below is a guide for AV format description for the Jitterbug database (green), a
 | D-2                            | 20                  | VT                     | VT                             | videotape             | D-2                            |
 | M-Format                       | 21                  | VT                     | VT                             | videotape             | M-Format                       |
 | 2" Open Reel Video             | 22                  | VT                     | VT                             | videotape             | 2" open reel video             |
-| 1" Open Reel Video             | 23                  | VT                     | VT                             | wr                                      | Wire recording                                   |
-| 45                             | 48                  | 45                     | D [?]                          | audiodisc                               | 45-rpm record                                    |
-| 78                             | 49                  | 78                     | D [?]                          | audiodisc                               | 78-rpm record                                    |
-| Cylinder                       | 50                  | CY                     | CY                             | ?                                       | Cylinder                                         |
-| MiniDisc                       | 51                  | MD                     | MD                             | md                                      | MiniDisc                                         |
-| LP                             | 52                  | FC                     | D [?]                          | audiodisc                               | LP record                                        |
-| Flexi Disc                     | 53                  | FC                     | D [?]                          | audiodisc                               | Flexi disc                                       |
-| Analog Disc                    | 54                  | D                      | D [?]                          | audiodisc                               | Metal stamper                                    |
-| NAB Catridge                   | 56                  | FT                     | T                              | sfcaudioopenreel [FT] audiotape [T]     | NAB cartridge                                    |
+| 1" Open Reel Video             | 23                  | VT                     | VT                             | videotape             | 1" open reel video             |
+| 1/2" Open Reel Video           | 24                  | VT                     | VT                             | videotape             | 1/2" open reel video           |
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+## Film
+
+| Jitterbug Format Display Names | Jitterbug Format ID | SFC Call Number Prefix | SHC / UARMS Call Number Prefix | EAD Container Type(s) | Finding Aid < genreform > text |
+| ------------------------------ | -------------------:| ---------------------- | ------------------------------ | --------------------- | ------------------------------ | 
+| 35mm                           | 1                   | F                      | F                              | film                  | 35mm motion picture film       | 
+| 16mm                           | 2                   | F                      | F                              | film                  | 16mm motion picture film       |
+| Super 8mm                      | 3                   | F                      | F                              | film                  | Super 8mm motion picture film  |
+| 8mm                            | 4                   | F                      | F                              | film                  | 8mm motion picture film        |
+| 9.5mm                          | 5                   | F                      | F                              | film                  | 9.5mm motion picture film      |
+| Filmstrip                      | 6                   | F                      | F                              | film                  | Filmstrip                      |
