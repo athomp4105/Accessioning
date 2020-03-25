@@ -1,6 +1,6 @@
 # Overview
 
-- ```<digfolder>```` coding in the FAID
+- ```<digfolder>``` coding in the FAID
 - Legacy updates to finding aids
 - ```<processinfo>``` Example Statements
 - CSV to MODS (the Patrick Cullom method)
