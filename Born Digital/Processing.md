@@ -40,7 +40,42 @@ Where does it go?
 
 - Series level note
 
-- Folder/fild level note
+- Folder/file level note
+
+## Inaccessible Storage Media We're Keeping
+
+What's this for?
+
+- Due to technical limitations we may not be able to access all removable media at the time of acquisition. If it's deemed important to keep the media in case we are able to acquire new technology or fund vendor data recovery, the media should be described in the finding aid.  
+
+- Keeping media that is inaccessible "just in case" should be a rare practice.  
+
+- If we have secured funding for vendor services during initial processing, do not list the item level media. Just wait to add the digital files once the files return from the vendor.  
+
+What is added to the finding aid?
+
+- List media as an item  
+
+- Derive title from label on media, if possible  
+
+- List type of storage media  
+
+- List media id number  
+
+- Note date last attempted to access the media and note that it was inaccessible.  
+
+Suggested wording for this note:
+
+§ Storage media was inaccessible in MONTH YEAR. If you would like to inquire about this item, please email wilsonlibrary@unc.edu.  
+
+Where does it go?
+
+- Item level
+
+- Series level for note about date attempted access if there are many inaccessible disks.
+
+- Include access restriction note
+
 
 
 
