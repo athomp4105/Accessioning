@@ -1,6 +1,6 @@
 # Container Types
 
-Here is the list of container types for the type attribute in the <container> tag (note that this attribute is case sensitive). Anyone needing another type of container can ask Lynn to expand the list.   
+Here is the list of container types for the _type_ attribute in the ```<container>``` tag (note that this attribute is case sensitive). Anyone needing another type of container can ask Lynn to expand the list.   
 
 | **Display Names**                              | ```<container type=>``` | Invidual Item/Folder/Box Style        |
 | ---------------------------------------------- | ------------------------| ------------------------------------- | 
