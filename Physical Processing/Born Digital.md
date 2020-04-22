@@ -1,0 +1,3 @@
+# Born Digital
+
+Born-digital items are materials that hold digital files.  Examples are floppy disks, CDs, DVDs, USB flash drives, hard drives, etc.  Occasionally, there will be born-digital items interspersed among a largely paper collection.  What we do with these items when we find them largely depends on the collection.  Sometimes, we leave them where they are, but other times, we gather them up and give them back to the curator so they can be ingested.  Chances are you’ll usually know when to expect born-digital materials in a collection and what to do with them, because your archivist in charge will probably already have briefed you, but that said, if you find some you weren’t expecting, tell the archivist. 
