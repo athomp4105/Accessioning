@@ -1,4 +1,4 @@
-# Photocpying/Scanning
+# Photocopying/Scanning
 
 Sometimes, it is in our best interests to use the Multi-Function Device (MFD) when physically processing materials.  It can be quicker to make a copy of an enclosure than to transcribe all of the information written on it.  It can also provide a more accurate account of the information, especially if there is hard-to-read handwriting involved.  If there is something visual about the item that can't be transcribed, such as an icon/logo, something about the arrangement of the words, or countless other potential qualities difficult to think of on the spot, that's another good reason to photocopy.  In addition, if the item with the information is too big for a Paige or Hollinger box (such as a large manila envelope), or very bulky (like a bubble mailer), photocopying it allows you to "shrink it down" to a sheet or two of paper.  Note: You might not have to reduce the size of the scan if only a small section of a large item has relevant information. 
 
